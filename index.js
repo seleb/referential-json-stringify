@@ -1,4 +1,4 @@
-function stringify(object, ...stringifyArgs) {
+export function stringify(object, ...stringifyArgs) {
 	const objectsRaw = [];
 	const objects = [];
 	function convertReferences(obj) {
@@ -22,7 +22,7 @@ function stringify(object, ...stringifyArgs) {
 	return JSON.stringify(objects.concat(root), ...stringifyArgs);
 }
 
-function parse(string, ...parseArgs) {
+export function parse(string, ...parseArgs) {
 	const objects = JSON.parse(string, ...parseArgs);
 	objects
 		.filter(obj => obj && typeof obj === 'object')
