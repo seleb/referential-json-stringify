@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`passes optional args through to JSON.stringify 1`] = `
+"[
+    \\"bar\\",
+    \\"b\\",
+    {
+        \\"foo\\": 0,
+        \\"a\\": 1
+    }
+]"
+`;
+
+exports[`stringifies and parses while preserving references 1`] = `"[\\"original\\",{\\"name\\":2,\\"a\\":1},\\"a\\",{\\"name\\":4,\\"a\\":1},\\"b\\",{\\"name\\":0,\\"a\\":1,\\"b\\":3}]"`;
