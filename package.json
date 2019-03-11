@@ -12,6 +12,10 @@
   ],
   "author": "Sean S. LeBlanc",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:seleb/referential-json-stringify.git"
+  },
   "scripts": {
     "build": "rollup -c",
     "prepare": "npm run build",
