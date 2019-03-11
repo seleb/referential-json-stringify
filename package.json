@@ -1,0 +1,9 @@
+{
+  "name": "referential-json-stringify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Sean S. LeBlanc",
+  "license": "MIT",
+  "dependencies": {}
+}
