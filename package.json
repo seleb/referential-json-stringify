@@ -1,6 +1,6 @@
 {
   "name": "referential-json-stringify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Provides `stringify`/`parse` functions for converting objects with shared/circular references to/from JSON",
   "main": "./dist/index.js",
   "module": "./dist/bundle.js",
